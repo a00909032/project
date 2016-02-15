@@ -1,7 +1,7 @@
 <div class="home-box player-list">
     <h2>Players List</h2>
     <ul>
-        <li>Something</li>
+        {playerLists}
     </ul>
 </div>
 <div class="home-box game-panel">

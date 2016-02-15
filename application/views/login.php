@@ -1,9 +1,8 @@
-<?php 
-    if (isset($_POST['submit']))
-    {
-        $username = $_POST['username'];
-        $_SESSION['username'] = $username;
-    }
+<?php
+if (isset($_POST['submit'])) {
+    $username = $_POST['username'];
+    $_SESSION['username'] = $username;
+}
 ?>
 <div class="login">
     <h2>Login</h2>

@@ -1,5 +1,15 @@
+
+<div class="switchplayer">
+    <h3>Select Player</h3>
+    <select>
+        <option value="1">Mickey</option>
+        <option value="2">Donald</option>
+        <option value="3">Pablo</option>
+    </select>
+</div>
+
 <div class="playerinfo">
-    <h3>Mickey</h3>
+    <h3>{allnames}</h3>
     <table class="inventory">
         <tr>
             <td><img src ="../img/11a-0.jpeg" alt="avatar" width="96" height="48"></td>
@@ -16,7 +26,7 @@
             <td>Series 26H body piece</td>
             <td>Acquired at xxx,yyy,zzz</td>
         </tr>
-     </table>
+    </table>
 </div>
 
 <div class="activity">
@@ -26,11 +36,3 @@
     </ul>
 </div>
 
-<div class="switchplayer">
-    <h3>Switch Player</h3>
-    <select>
-        <option value="1">Mickey</option>
-        <option value="2">Donald</option>
-        <option value="3">Pablo</option>
-    </select>
-</div>
