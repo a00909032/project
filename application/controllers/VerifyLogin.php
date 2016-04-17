@@ -46,6 +46,7 @@ window.location.href='../home';
                 $this->session->set_userdata('logged_in', $sess_array);
             }
             $_SESSION['status'] = $sess_array['status'];
+            $_SESSION['username'] = $sess_array['username'];
             return TRUE;
         } else {
             $this->form_validation->set_message('check_database', 'Invalid username or password');
